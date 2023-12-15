@@ -17,7 +17,8 @@ class ConfigProvider
     {
         return [
             'dependencies' => [
-                \Monolog\Formatter\LineFormatter::class => LineFormatter::class
+                \Monolog\Formatter\LineFormatter::class => LineFormatter::class,
+                \Monolog\Formatter\JsonFormatter::class => JsonFormatter::class
             ],
             'commands' => [
             ],
