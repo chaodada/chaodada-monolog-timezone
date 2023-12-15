@@ -13,7 +13,7 @@ class JsonFormatter extends \Monolog\Formatter\JsonFormatter
         int $maxNormalizeDepth = 20
     )
     {
-        parent::__construct($batchMode, $appendNewline, $ignoreEmptyContextAndExtra, $ignoreEmptyContextAndExtra,$includeStacktraces);
+        parent::__construct($batchMode, $appendNewline, $ignoreEmptyContextAndExtra, $includeStacktraces);
         //设置json的序列化深度
         parent::setMaxNormalizeDepth($maxNormalizeDepth);
     }
