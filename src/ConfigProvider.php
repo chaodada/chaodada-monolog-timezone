@@ -9,7 +9,7 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace ZenStudio\LineFormatter;
+namespace Iuu\MonologTimeZone;
 
 class ConfigProvider
 {
@@ -17,8 +17,7 @@ class ConfigProvider
     {
         return [
             'dependencies' => [
-                \Monolog\Formatter\LineFormatter::class => LineFormatter::class,
-                \Monolog\Formatter\JsonFormatter::class => JsonFormatter::class
+                \Monolog\Logger::class => Logger::class,
             ],
             'commands' => [
             ],

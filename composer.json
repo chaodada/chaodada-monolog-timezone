@@ -1,17 +1,17 @@
 {
-    "name": "chaodada/line-formatter",
+    "name": "chaodada/monolog-timezone",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "php",
         "hyperf",
         "logger",
-        "Over 9 levels deep"
+        "timezone"
     ],
-    "description": "解决Hyperf框架Log类出现Over 9 levels deep, aborting normalization的问题",
+    "description": "解决Hyperf框架Log类出现时区的问题",
     "autoload": {
         "psr-4": {
-            "ZenStudio\\LineFormatter\\": "src/"
+            "Iuu\\MonologTimeZone\\": "src/"
         }
     },
     "require": {
@@ -21,7 +21,7 @@
     "minimum-stability": "dev",
     "extra": {
         "hyperf": {
-            "config": "ZenStudio\\LineFormatter\\ConfigProvider"
+            "config": "Iuu\\MonologTimeZone\\ConfigProvider"
         }
     }
 }
