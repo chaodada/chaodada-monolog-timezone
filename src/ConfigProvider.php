@@ -9,6 +9,7 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
+
 namespace Iuu\MonologTimeZone;
 
 class ConfigProvider
@@ -17,8 +18,7 @@ class ConfigProvider
     {
         return [
             'dependencies' => [
-//                \Hyperf\Loggerr::class => Logger::class,
-            \Hyperf\Logger\Logger::class =>Logger::class
+                \Hyperf\Logger\Logger::class => Logger::class
             ],
             'commands' => [
             ],
