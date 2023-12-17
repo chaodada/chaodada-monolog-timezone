@@ -17,7 +17,8 @@ class ConfigProvider
     {
         return [
             'dependencies' => [
-                \Monolog\Logger::class => Logger::class,
+//                \Hyperf\Loggerr::class => Logger::class,
+            \Hyperf\Logger\Logger::class =>Logger::class
             ],
             'commands' => [
             ],
